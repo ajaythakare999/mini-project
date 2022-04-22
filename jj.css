@@ -1,0 +1,61 @@
+.element {
+
+    background-image: linear-gradient(to right, #141e30, #243b55);
+   }
+   
+   
+    body {
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           height: 100vh;
+           
+         }
+
+         #dd{
+             color:red;
+             width: :100px;;
+         }
+           
+         
+   
+   #container {
+   
+   border: 1px solid;
+   padding:5px;
+   display:grid;
+   grid-template-columns: repeat(3, 1fr);
+   width: 30vw;
+   height: 30vh;
+   gap:5px;
+   
+   
+   }
+   #game p{
+   margin:0px ;
+   }
+   #ajayy{
+   
+   color:red;
+   background-image: linear-gradient(to right, #434343 0%, black 100%);
+   }
+   
+   #ajay{
+   
+           display: flex;
+           border: solid  green;
+           justify-content: center;
+          
+           align-items: center;
+           
+           padding:10px;
+   
+   
+   }
+   #container button{
+   background-image: radial-gradient(circle farthest-side, #fceabb, #f8b500);
+   }
+   
+   
+   
+   

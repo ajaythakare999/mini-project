@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+
+<link rel="stylesheet" href="jj.css">
+
+
+
+</head>
+<body class="element">
+
+ 
+<main>
+  
+
+<div id="container">
+
+<button id="btn1" onClick="printx('1')"></button>
+<button id="btn2" onClick="printx('2')"></button>
+<button id="btn3" onClick="printx('3')"></button>
+
+<button id="btn4" onClick="printx('4')"></button>
+<button id="btn5" onClick="printx('5')"></button>
+<button id="btn6" onClick="printx('6')"></button>
+
+<button id="btn7" onClick="printx('7')"></button>
+<button id="btn8" onClick="printx('8')"></button>
+<button id="btn9" onClick="printx('9')"></button>
+
+</div>
+<div id="ajay">
+<button id="ajayy" onClick="mybtn()">reset</button>
+</div>
+
+
+</main>
+
+
+
+
+<script>
+
+let sign="x";
+
+function printx(number){
+let isko=document.getElementById("btn"+number);
+console.log(isko);
+isko.innerHTML=sign;
+check();
+}
+
+function check(){
+if(sign=="x")
+sign="y";
+else
+sign="x";
+}
+
+function mybtn(){
+location.reload();
+}
+
+</script>
+
+
+</body>
+</html>
+
